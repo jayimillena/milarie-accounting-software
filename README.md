@@ -1,7 +1,4 @@
-```python
-import os
-
-readme_content = """# 🌾 Milrie Accounting Software
+```🌾 Milrie Accounting Software
 
 An open-source, lightweight double-entry accounting ledger tailored specifically for farmers, agricultural enthusiasts, and agribusiness startups. Built on the modern **TALL Stack** (Tailwind CSS, Alpine.js, Laravel, and Livewire), this system provides a decentralized, free alternative to expensive proprietary accounting software.
 
