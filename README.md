@@ -142,4 +142,3 @@ We welcome all software engineers, agronomy researchers, and farm managers to co
 * Open Issues to report structural edge cases, multi-currency bugs, or specific local localization requirements.
 
 *Let's build tools that keep local farm economies transparent, sustainable, and organized.*
-"""
