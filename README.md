@@ -143,23 +143,3 @@ We welcome all software engineers, agronomy researchers, and farm managers to co
 
 *Let's build tools that keep local farm economies transparent, sustainable, and organized.*
 """
-
-with open("README.md", "w", encoding="utf-8") as f:
-f.write(readme_content.strip())
-
-print("README.md generated successfully.")
-
-```
-Your Markdown documentation file is ready
-[file-tag: code-generated-file-0-1783269549925961635]
-
-Here is a summary of the contents included in your newly generated `README.md` file:
-
-* Project FramingL Clearly introduces the tool as an open-source, community-driven ecosystem (Agribalance Ledger) tailored explicitly as a free utility for agricultural producers, hobbyists, and enthusiasts.
-* Component Breakdown: Formally documents the architectural split of your codebase—mapping out database schemas (Part A), reactive validation engines (Part B), and layout view components (Part C).
-* Installation Playbook: Outlines terminal-ready staging steps including setup configuration, asset compiling, framework database migrations, and running the `AgriculturalAccountSeeder` command safely.
-* Accounting Metadata Reference: Features an integrated Markdown table indexing core structural types (`asset`, `liability`, `revenue`, `expense`) against practical, real-world field applications like biological tracking and chemical treatments.
-* Open Source Invitation: Concludes with an open operational request explicitly inviting developers and agronomy managers to collaborate on future analytical extensions (such as automatic Balance Sheet or Income Statement reports).
-
-```
-```
