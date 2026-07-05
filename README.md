@@ -1,6 +1,6 @@
 ## 🌾 Milarie Accounting Software
 
-An open-source, lightweight double-entry accounting ledger tailored specifically for farmers, agricultural enthusiasts, and agribusiness startups. Built on the modern **TALL Stack** (Tailwind CSS, Alpine.js, Laravel, and Livewire), this system provides a decentralized, free alternative to expensive proprietary accounting software.
+An open-source, lightweight double-entry accounting ledger tailored specifically for farmers, agricultural enthusiasts, and agribusiness startups. Built on the modern TALL Stack (Tailwind CSS, Alpine.js, Laravel, and Livewire), this system provides a decentralized, free alternative to expensive proprietary accounting software.
 
 It empowers agricultural producers to track their physical assets, biological transformations (livestock growth, crop progression), and seasonal operational expenses without friction.
 
@@ -8,22 +8,22 @@ It empowers agricultural producers to track their physical assets, biological tr
 
 ## 🚀 Key Features
 
-- **Double-Entry General Ledger:** Built natively around fundamental accounting rules (Debits/Credits) to ensure mathematically sound trial balances.
-- **Agricultural Chart of Accounts:** Pre-configured database structures tailored specifically for farm environments:
-  - **Biological Assets:** Tracking for Market Livestock, Breeding/Bearer Livestock, Growing Crops, and Bearer Plants.
-  - **Inventories:** Dedicated accounts for Feed, Harvested Crops, and Farm Supplies.
-  - **Production Expenses:** Clean buckets for Fertilizer, Seed/Seedlings, Crop Protection Chemicals, and Veterinary Care.
-- **Livewire Reactive UI:** Post operational transactions, track current multi-category account balances, and audit general ledger entries in real time without refreshing pages.
-- **Zero Configuration Seeders:** Populate a standardized, production-ready agricultural chart of accounts immediately upon deployment.
+- Double-Entry General Ledger: Built natively around fundamental accounting rules (Debits/Credits) to ensure mathematically sound trial balances.
+- Agricultural Chart of Accounts: Pre-configured database structures tailored specifically for farm environments:
+  - Biological Assets: Tracking for Market Livestock, Breeding/Bearer Livestock, Growing Crops, and Bearer Plants.
+  - Inventories: Dedicated accounts for Feed, Harvested Crops, and Farm Supplies.
+  - Production Expenses: Clean buckets for Fertilizer, Seed/Seedlings, Crop Protection Chemicals, and Veterinary Care.
+- Livewire Reactive UI: Post operational transactions, track current multi-category account balances, and audit general ledger entries in real time without refreshing pages.
+- Zero Configuration Seeders: Populate a standardized, production-ready agricultural chart of accounts immediately upon deployment.
 
 ---
 
 ## 🛠️ Technical Stack
 
-- **Framework:** Laravel (v11.x+)
-- **Frontend Logic:** Livewire (v3.x)
-- **Styling UI:** Tailwind CSS
-- **Database Engine:** MySQL / PostgreSQL / SQLite
+- Framework: Laravel (v11.x+)
+- Frontend Logic: Livewire (v3.x)
+- Styling UI: Tailwind CSS
+- Database Engine: MySQL / PostgreSQL / SQLite
 
 ---
 
@@ -120,20 +120,20 @@ When running the database seeder, the application populates the system using the
 
 | Core System Type | Account Name | Contextual Operational Target |
 | --- | --- | --- |
-| **Asset** | Raised Livestock (Market) | Animals raised for meat or immediate sale markets. |
-| **Asset** | Breeding Livestock (Bearer) | Animals held to produce offspring/dairy over multiple years. |
-| **Asset** | Growing Crops | Accumulated operational capital of standing crops. |
-| **Asset** | Harvested Crop Inventory | Reaped grains/products sitting in silos waiting for market. |
-| **Liability** | Production / Crop Loans | Short-term financing borrowed at planting, repaid at harvest. |
-| **Revenue** | Crop Sales Revenue | Inflow realized from executing commercial product distributions. |
-| **Expense** | Fertilizer & Soil Amendments | Soil treatment items, macro/micronutrients, and organic compost. |
-| **Expense** | Crop Protection Chemicals | Active ingredients shielding fields (Herbicides, Pesticides). |
+| Asset | Raised Livestock (Market) | Animals raised for meat or immediate sale markets. |
+| Asset | Breeding Livestock (Bearer) | Animals held to produce offspring/dairy over multiple years. |
+| Asset | Growing Crops | Accumulated operational capital of standing crops. |
+| Asset | Harvested Crop Inventory | Reaped grains/products sitting in silos waiting for market. |
+| Liability | Production / Crop Loans | Short-term financing borrowed at planting, repaid at harvest. |
+| Revenue | Crop Sales Revenue | Inflow realized from executing commercial product distributions. |
+| Expense | Fertilizer & Soil Amendments | Soil treatment items, macro/micronutrients, and organic compost. |
+| Expense | Crop Protection Chemicals | Active ingredients shielding fields (Herbicides, Pesticides). |
 
 ---
 
 ## 🤝 Contributing & Community Initiative
 
-This software is developed entirely as a **public contribution to the global farming community**. Agriculture remains the bedrock of civil society, yet modern business optimization tools remain locked behind prohibitive licensing gates.
+This software is developed entirely as a public contribution to the global farming community. Agriculture remains the bedrock of civil society, yet modern business optimization tools remain locked behind prohibitive licensing gates.
 
 We welcome all software engineers, agronomy researchers, and farm managers to contribute:
 
@@ -155,11 +155,11 @@ Your Markdown documentation file is ready
 
 Here is a summary of the contents included in your newly generated `README.md` file:
 
-* **Project Framing:** Clearly introduces the tool as an open-source, community-driven ecosystem (**Agribalance Ledger**) tailored explicitly as a free utility for agricultural producers, hobbyists, and enthusiasts.
-* **Component Breakdown:** Formally documents the architectural split of your codebase—mapping out database schemas (Part A), reactive validation engines (Part B), and layout view components (Part C).
-* **Installation Playbook:** Outlines terminal-ready staging steps including setup configuration, asset compiling, framework database migrations, and running the `AgriculturalAccountSeeder` command safely.
-* **Accounting Metadata Reference:** Features an integrated Markdown table indexing core structural types (`asset`, `liability`, `revenue`, `expense`) against practical, real-world field applications like biological tracking and chemical treatments.
-* **Open Source Invitation:** Concludes with an open operational request explicitly inviting developers and agronomy managers to collaborate on future analytical extensions (such as automatic Balance Sheet or Income Statement reports).
+* Project FramingL Clearly introduces the tool as an open-source, community-driven ecosystem (Agribalance Ledger) tailored explicitly as a free utility for agricultural producers, hobbyists, and enthusiasts.
+* Component Breakdown: Formally documents the architectural split of your codebase—mapping out database schemas (Part A), reactive validation engines (Part B), and layout view components (Part C).
+* Installation Playbook: Outlines terminal-ready staging steps including setup configuration, asset compiling, framework database migrations, and running the `AgriculturalAccountSeeder` command safely.
+* Accounting Metadata Reference: Features an integrated Markdown table indexing core structural types (`asset`, `liability`, `revenue`, `expense`) against practical, real-world field applications like biological tracking and chemical treatments.
+* Open Source Invitation: Concludes with an open operational request explicitly inviting developers and agronomy managers to collaborate on future analytical extensions (such as automatic Balance Sheet or Income Statement reports).
 
 ```
 ```
